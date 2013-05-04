@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB69BA2D173589C500027072 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB69BA2C173589C500027072 /* UIKit.framework */; };
+		DB69BA2F173589C500027072 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB69BA2E173589C500027072 /* Foundation.framework */; };
+		DB69BA31173589C500027072 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB69BA30173589C500027072 /* CoreGraphics.framework */; };
+		DB69BA37173589C500027072 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB69BA35173589C500027072 /* InfoPlist.strings */; };
+		DB69BA39173589C500027072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69BA38173589C500027072 /* main.m */; };
+		DB69BA3D173589C500027072 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69BA3C173589C500027072 /* AppDelegate.m */; };
+		DB69BA3F173589C500027072 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DB69BA3E173589C500027072 /* Default.png */; };
+		DB69BA41173589C500027072 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB69BA40173589C500027072 /* Default@2x.png */; };
+		DB69BA43173589C500027072 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB69BA42173589C500027072 /* Default-568h@2x.png */; };
+		DB69BA46173589C500027072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69BA45173589C500027072 /* ViewController.m */; };
+		DB69BA49173589C500027072 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB69BA47173589C500027072 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB69BA29173589C500027072 /* NWImageViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NWImageViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB69BA2C173589C500027072 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DB69BA2E173589C500027072 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DB69BA30173589C500027072 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DB69BA34173589C500027072 /* NWImageViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NWImageViewer-Info.plist"; sourceTree = "<group>"; };
+		DB69BA36173589C500027072 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DB69BA38173589C500027072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB69BA3A173589C500027072 /* NWImageViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NWImageViewer-Prefix.pch"; sourceTree = "<group>"; };
+		DB69BA3B173589C500027072 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB69BA3C173589C500027072 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB69BA3E173589C500027072 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DB69BA40173589C500027072 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DB69BA42173589C500027072 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DB69BA44173589C500027072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB69BA45173589C500027072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB69BA48173589C500027072 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB69BA26173589C500027072 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB69BA2D173589C500027072 /* UIKit.framework in Frameworks */,
+				DB69BA2F173589C500027072 /* Foundation.framework in Frameworks */,
+				DB69BA31173589C500027072 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB69BA20173589C500027072 = {
+			isa = PBXGroup;
+			children = (
+				DB69BA32173589C500027072 /* NWImageViewer */,
+				DB69BA2B173589C500027072 /* Frameworks */,
+				DB69BA2A173589C500027072 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB69BA2A173589C500027072 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB69BA29173589C500027072 /* NWImageViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB69BA2B173589C500027072 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB69BA2C173589C500027072 /* UIKit.framework */,
+				DB69BA2E173589C500027072 /* Foundation.framework */,
+				DB69BA30173589C500027072 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB69BA32173589C500027072 /* NWImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				DB69BA3B173589C500027072 /* AppDelegate.h */,
+				DB69BA3C173589C500027072 /* AppDelegate.m */,
+				DB69BA44173589C500027072 /* ViewController.h */,
+				DB69BA45173589C500027072 /* ViewController.m */,
+				DB69BA47173589C500027072 /* ViewController.xib */,
+				DB69BA33173589C500027072 /* Supporting Files */,
+			);
+			path = NWImageViewer;
+			sourceTree = "<group>";
+		};
+		DB69BA33173589C500027072 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB69BA34173589C500027072 /* NWImageViewer-Info.plist */,
+				DB69BA35173589C500027072 /* InfoPlist.strings */,
+				DB69BA38173589C500027072 /* main.m */,
+				DB69BA3A173589C500027072 /* NWImageViewer-Prefix.pch */,
+				DB69BA3E173589C500027072 /* Default.png */,
+				DB69BA40173589C500027072 /* Default@2x.png */,
+				DB69BA42173589C500027072 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB69BA28173589C500027072 /* NWImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB69BA4C173589C500027072 /* Build configuration list for PBXNativeTarget "NWImageViewer" */;
+			buildPhases = (
+				DB69BA25173589C500027072 /* Sources */,
+				DB69BA26173589C500027072 /* Frameworks */,
+				DB69BA27173589C500027072 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWImageViewer;
+			productName = NWImageViewer;
+			productReference = DB69BA29173589C500027072 /* NWImageViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB69BA21173589C500027072 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tom Nys";
+			};
+			buildConfigurationList = DB69BA24173589C500027072 /* Build configuration list for PBXProject "NWImageViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DB69BA20173589C500027072;
+			productRefGroup = DB69BA2A173589C500027072 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB69BA28173589C500027072 /* NWImageViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB69BA27173589C500027072 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB69BA37173589C500027072 /* InfoPlist.strings in Resources */,
+				DB69BA3F173589C500027072 /* Default.png in Resources */,
+				DB69BA41173589C500027072 /* Default@2x.png in Resources */,
+				DB69BA43173589C500027072 /* Default-568h@2x.png in Resources */,
+				DB69BA49173589C500027072 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB69BA25173589C500027072 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB69BA39173589C500027072 /* main.m in Sources */,
+				DB69BA3D173589C500027072 /* AppDelegate.m in Sources */,
+				DB69BA46173589C500027072 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB69BA35173589C500027072 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB69BA36173589C500027072 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DB69BA47173589C500027072 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB69BA48173589C500027072 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB69BA4A173589C500027072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DB69BA4B173589C500027072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB69BA4D173589C500027072 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NWImageViewer/NWImageViewer-Prefix.pch";
+				INFOPLIST_FILE = "NWImageViewer/NWImageViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DB69BA4E173589C500027072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NWImageViewer/NWImageViewer-Prefix.pch";
+				INFOPLIST_FILE = "NWImageViewer/NWImageViewer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB69BA24173589C500027072 /* Build configuration list for PBXProject "NWImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB69BA4A173589C500027072 /* Debug */,
+				DB69BA4B173589C500027072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB69BA4C173589C500027072 /* Build configuration list for PBXNativeTarget "NWImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB69BA4D173589C500027072 /* Debug */,
+				DB69BA4E173589C500027072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB69BA21173589C500027072 /* Project object */;
+}
