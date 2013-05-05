@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "NWZoomingImageView.h"
 
-@interface ViewController ()
+@interface ViewController ()<NWZoomingImageViewDelegate>
 
 @end
 
@@ -17,13 +18,25 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+	self.imageView.zoomingDelegate = self;
+//	self.imageView.image = [UIImage imageNamed:@"movie-collection-ipad.jpg"];
+	self.imageView.image = [UIImage imageNamed:@"small.png"];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (NSUInteger)supportedInterfaceOrientations {
+	return UIInterfaceOrientationMaskAll;
+}
+
+// Tell the system It should autorotate
+- (BOOL) shouldAutorotate {
+	return YES;
 }
 
 @end

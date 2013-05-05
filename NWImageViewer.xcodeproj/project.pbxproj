@@ -18,6 +18,10 @@
 		DB69BA43173589C500027072 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB69BA42173589C500027072 /* Default-568h@2x.png */; };
 		DB69BA46173589C500027072 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69BA45173589C500027072 /* ViewController.m */; };
 		DB69BA49173589C500027072 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB69BA47173589C500027072 /* ViewController.xib */; };
+		DB69BA52173589F800027072 /* NWZoomingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69BA51173589F800027072 /* NWZoomingImageView.m */; };
+		DB69BA5517358A2F00027072 /* NWTapDetectingView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69BA5417358A2F00027072 /* NWTapDetectingView.m */; };
+		DB69BA5817358A4100027072 /* NWTapDetectingImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69BA5717358A4100027072 /* NWTapDetectingImageView.m */; };
+		DB69BA5A1736A33E00027072 /* movie-collection-ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB69BA591736A33E00027072 /* movie-collection-ipad.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,13 @@
 		DB69BA44173589C500027072 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DB69BA45173589C500027072 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB69BA48173589C500027072 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DB69BA50173589F800027072 /* NWZoomingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWZoomingImageView.h; sourceTree = "<group>"; };
+		DB69BA51173589F800027072 /* NWZoomingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWZoomingImageView.m; sourceTree = "<group>"; };
+		DB69BA5317358A2F00027072 /* NWTapDetectingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWTapDetectingView.h; sourceTree = "<group>"; };
+		DB69BA5417358A2F00027072 /* NWTapDetectingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWTapDetectingView.m; sourceTree = "<group>"; };
+		DB69BA5617358A4100027072 /* NWTapDetectingImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWTapDetectingImageView.h; sourceTree = "<group>"; };
+		DB69BA5717358A4100027072 /* NWTapDetectingImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWTapDetectingImageView.m; sourceTree = "<group>"; };
+		DB69BA591736A33E00027072 /* movie-collection-ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "movie-collection-ipad.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +94,7 @@
 		DB69BA32173589C500027072 /* NWImageViewer */ = {
 			isa = PBXGroup;
 			children = (
+				DB69BA4F173589E200027072 /* Library */,
 				DB69BA3B173589C500027072 /* AppDelegate.h */,
 				DB69BA3C173589C500027072 /* AppDelegate.m */,
 				DB69BA44173589C500027072 /* ViewController.h */,
@@ -96,6 +108,7 @@
 		DB69BA33173589C500027072 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB69BA591736A33E00027072 /* movie-collection-ipad.jpg */,
 				DB69BA34173589C500027072 /* NWImageViewer-Info.plist */,
 				DB69BA35173589C500027072 /* InfoPlist.strings */,
 				DB69BA38173589C500027072 /* main.m */,
@@ -105,6 +118,19 @@
 				DB69BA42173589C500027072 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB69BA4F173589E200027072 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DB69BA50173589F800027072 /* NWZoomingImageView.h */,
+				DB69BA51173589F800027072 /* NWZoomingImageView.m */,
+				DB69BA5317358A2F00027072 /* NWTapDetectingView.h */,
+				DB69BA5417358A2F00027072 /* NWTapDetectingView.m */,
+				DB69BA5617358A4100027072 /* NWTapDetectingImageView.h */,
+				DB69BA5717358A4100027072 /* NWTapDetectingImageView.m */,
+			);
+			name = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +189,7 @@
 				DB69BA41173589C500027072 /* Default@2x.png in Resources */,
 				DB69BA43173589C500027072 /* Default-568h@2x.png in Resources */,
 				DB69BA49173589C500027072 /* ViewController.xib in Resources */,
+				DB69BA5A1736A33E00027072 /* movie-collection-ipad.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +203,9 @@
 				DB69BA39173589C500027072 /* main.m in Sources */,
 				DB69BA3D173589C500027072 /* AppDelegate.m in Sources */,
 				DB69BA46173589C500027072 /* ViewController.m in Sources */,
+				DB69BA52173589F800027072 /* NWZoomingImageView.m in Sources */,
+				DB69BA5517358A2F00027072 /* NWTapDetectingView.m in Sources */,
+				DB69BA5817358A4100027072 /* NWTapDetectingImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +330,7 @@
 				DB69BA4E173589C500027072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
