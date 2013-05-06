@@ -20,8 +20,7 @@
     [super viewDidLoad];
 
 	self.imageView.zoomingDelegate = self;
-//	self.imageView.image = [UIImage imageNamed:@"movie-collection-ipad.jpg"];
-	self.imageView.image = [UIImage imageNamed:@"small.png"];
+	self.imageView.image = [UIImage imageNamed:@"movie-collection-ipad.jpg"];
 }
 
 - (void)didReceiveMemoryWarning
